@@ -19,7 +19,7 @@ const TimerDisplay = () => {
       <h2>Countdown Timer</h2>
       <p>{formatTime(time)}</p>
       {!isRunning && (
-        <button onClick={startTimer}>Resume</button>
+        <button onClick={startTimer}>Start</button>
       )}
       {isRunning && (
         <>
